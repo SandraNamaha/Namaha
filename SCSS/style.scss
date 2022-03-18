@@ -1,0 +1,523 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.body {
+    background-color: #fdae81;
+}
+ 
+   
+    /* Portada */
+
+.portada {
+    width: 70%;
+    @media screen and (max-width: 768px) {
+        width: 81%;         
+    }
+}
+.div-portada {
+    display: flex;
+    justify-content: center;
+}
+    
+    /* Barra de Navegación */
+    /* Para todos los HTML */
+
+.nav-container {
+    background-color: #f3722c;
+    border-radius: 50px;    
+}
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    align-items: center;
+}
+.nav-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.pestañas {
+    font-family: 'Dancing Script';
+    font-style: oblique;
+    text-shadow: black 2px 2px;
+}
+.pestañas {
+    a {
+        color: white;
+        font-size: 1.1rem;
+    }
+}
+
+.pestañas {
+    a {
+        @media screen and (max-width: 991px) {
+            color: white;
+            font-size: 1.4rem;
+        }
+    }
+}
+.navbar-expand-lg {
+    .navbar-collapse {
+        @media screen and (min-width: 992px) {
+        display: flex!important;
+        flex-basis: auto;
+        justify-content: space-around;
+        }
+    }
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: white;
+}
+.dropdown > .dropdown-item:hover{
+    background:lightblue;
+    color:white;
+}
+ 
+
+    /* Subpestañas */
+.sub-pestañas, .dropdown-item:hover {
+    background-color: #87a330;
+    color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* Footer */
+    /* Para todos los HTML */
+.footer-container {
+    background-color: #f3722c;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.footer-padre {
+    padding: 30px 0;
+}
+.footer-contacto {
+    font-size: 1.3rem;
+    font-family: 'Dancing Script';
+    font-style: oblique;
+    text-align: center;
+    color: white;
+    @media screen and (max-width: 424px) {
+        font-size: 1rem;            
+    }
+}
+.redes {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    list-style: none;
+}
+.maps {
+    width: 90%;
+    height: 100%;
+}
+
+/* Index (Principal) */
+/* Carrusel de Noticias */
+    /* Sección 1 */
+
+.carousel-item {
+    img {
+        width: auto;
+        object-fit: contain;
+    }
+}
+
+/* Breve información del Salón */
+/* Sección 2 */
+.img-salon {
+    width: 100%;
+    border-radius: 30px;
+}
+.salon-container {
+    margin: 60px 0;
+}
+.titulo-namaha {
+    font-size: 5rem;
+    font-family: 'Dancing Script';
+    font-style: oblique;
+    color: #f3722c;
+    text-align: center;
+    text-shadow: #ffd7c3 3px 3px;
+    @media screen and (max-width: 768px) {
+        font-size: 3rem;            
+    }
+}
+.p-texto {
+    font-size: 1.9rem;
+    font-family: 'Dancing Script';
+    font-style: oblique;
+    text-align: center;
+    color: white;
+    text-shadow: #87a330 3px 3px;
+    @media screen and (max-width: 768px) {
+        font-size: 1.2rem;            
+    }
+}
+
+.calendario-container {
+    img {
+        width: 100%;
+        margin: 50px 0;
+        border-radius: 50px;
+        @media screen and (max-width: 1023px) {
+            border-radius: 10px;           
+        }
+    }
+}
+
+/* Terapias */
+/* Reiki */
+.reiki-container {
+    margin: 30px 0;
+    padding: 30px;
+}
+.reiki-container {
+    h1 {
+        font-size: 5rem;
+        font-family: 'Dancing Script';
+        font-style: oblique;
+        color: #f3722c;
+        text-shadow: #ffd7c3 3px 3px;
+        padding: 40px 0;
+        @media screen and (max-width: 768px) {
+            font-size: 3rem;            
+        }
+    }
+}
+.reiki-container {
+    h2 {
+        font-size: 3rem;
+        font-family: 'Dancing Script';
+        font-style: oblique;
+        text-align: center;
+        color: #87a330;
+        text-shadow: white 3px 3px;
+        @media screen and (max-width: 768px) {
+            font-size: 2rem;            
+        }
+    }
+}
+.reiki-container {
+    p {
+        font-size: 1.9rem;
+        font-family: 'Dancing Script';
+        font-style: oblique;
+        text-align: center;
+        color: white;
+        text-shadow: #87a330 3px 3px;
+        @media screen and (max-width: 768px) {
+            font-size: 1.2rem;            
+        }
+    }
+}
+.reiki-container {
+    img {
+        width: 100%;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        border-radius: 50px;
+    }
+}
+ 
+/* Disciplinas */
+/* Yoga */
+.yoga-container {
+    margin: 30px 0;
+    padding: 30px;
+}
+.yoga-container {
+    h1 {
+        font-size: 5rem;
+        font-family: 'Dancing Script';
+        font-style: oblique;
+        color: #f3722c;
+        text-shadow: #ffd7c3 3px 3px;
+        padding: 40px 0;
+        @media screen and (max-width: 768px) {
+            font-size: 3rem;            
+        }
+    }
+}
+.yoga-container {
+    h2 {
+        font-size: 3rem;
+        font-family: 'Dancing Script';
+        font-style: oblique;
+        color: #87a330;
+        text-align: center;
+        text-shadow: white 3px 3px;
+        padding: 10px 0;
+        @media screen and (max-width: 768px) {
+            font-size: 2rem;            
+        }
+    }
+}
+.yoga-container {
+    p {
+        font-size: 1.9rem;
+        font-family: 'Dancing Script';
+        font-style: oblique;
+        text-align: center;
+        color: white;
+        text-shadow: #87a330 3px 3px;
+        padding: 20px 0;
+        @media screen and (max-width: 768px) {
+            font-size: 1.2rem;            
+        }
+        @media screen and (max-width: 425px) {
+            font-size: 1.2rem;
+            border: 2px outset #87a330;            
+        }
+    }
+}
+.yoga-container {
+    .img-yoga {
+        width: 100%;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        border-radius: 50px;
+        padding: 20px 0;
+    }
+}
+.yoga-container {
+    .yoga-ni {
+        width: 80%;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        border-radius: 50px;
+        padding: 20px 0;
+        @media screen and (max-width: 768px) {
+            width: 100%;           
+        }
+    }
+}
+
+/* Constelaciones Familiares */
+.cf-container {
+    margin: 30px 0;
+    padding: 30px;
+}
+.cf-container {
+    h1 {
+        font-size: 5rem;
+        font-family: 'Dancing Script';
+        font-style: oblique;
+        color: #f3722c;
+        text-shadow: #ffd7c3 3px 3px;
+        padding: 40px 0;
+        @media screen and (max-width: 768px) {
+            font-size: 2.5rem;            
+        }
+    }
+}
+.cf-container {
+    h2 {
+        font-size: 3rem;
+        font-family: 'Dancing Script';
+        font-style: oblique;
+        text-align: center;
+        color: #87a330;
+        text-shadow: white 3px 3px;
+        @media screen and (max-width: 768px) {
+            font-size: 2rem;            
+        }
+    }
+}
+.cf-container {
+    p {
+        font-size: 1.9rem;
+        font-family: 'Dancing Script';
+        font-style: oblique;
+        text-align: center;
+        color: white;
+        text-shadow: #87a330 3px 3px;
+        @media screen and (max-width: 768px) {
+            font-size: 1.2rem;            
+        }
+    }
+}
+.cf-container {
+    img {
+        width: 100%;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        border-radius: 50px;
+    }
+}
+ 
+/* Namaha */
+.namaha-container {
+    margin: 30px 0;
+    padding: 30px;    
+}
+.namaha-container {
+    h1 {
+        font-size: 5rem;
+        font-family: 'Dancing Script';
+        font-style: oblique;
+        color: #f3722c;
+        text-shadow: #ffd7c3 3px 3px;
+        padding: 40px 0; 
+        @media screen and (max-width: 768px) {
+            font-size: 3rem;            
+        }       
+    }
+}
+.namaha-container {
+    h2 {
+        font-size: 3rem;
+        font-family: 'Dancing Script';
+        font-style: oblique;
+        text-align: center;
+        color: #87a330;
+        text-shadow: white 3px 3px;
+        @media screen and (max-width: 768px) {
+            font-size: 2rem; 
+        }
+    }
+}
+.namaha-container {
+    p {
+        font-size: 1.9rem;
+        font-family: 'Dancing Script';
+        font-style: oblique;
+        text-align: center;
+        color: white;
+        text-shadow: #87a330 3px 3px;
+        @media screen and (max-width: 768px) {
+            font-size: 1.2rem;
+        }
+        @media screen and (max-width: 425px) {
+            font-size: 1.2rem;
+            border: 2px outset #87a330;            
+        }
+    }
+}
+
+/* Noticias */
+.noticia-container {
+    margin: 30px 0;
+    padding: 30px;    
+}
+.h2-noticias {
+    font-size: 1.6rem;
+    font-family: 'Dancing Script';
+    font-style: oblique;
+    text-align: center;
+    color: white;
+    text-shadow: #87a330 3px 3px;
+    @media screen and (max-width: 425px) {
+        font-size: 1.3rem;        
+    }
+}
+.noticia-div {
+    margin: 30px 0;
+}
+.noticia-container {
+    img {
+        width: 50%;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        border-radius: 50px;
+        @media screen and (max-width: 768px) {
+            width: 100%;   
+            border-radius: 20px;      
+        }
+    }
+}
+
+/* Galeria */
+.galeria-container {
+    margin: 30px 0;
+    padding: 30px;    
+}
+.div-div-galeria {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.div-galeria {
+    @media screen and (max-width: 767px) {
+        border: 2px outset #87a330; 
+        margin: 20px 0;           
+    }    
+}
+.galeria-container {
+    h1 {
+        font-size: 5rem;
+        font-family: 'Dancing Script';
+        font-style: oblique;
+        color: #f3722c;
+        text-shadow: #ffd7c3 3px 3px;
+        padding: 40px 0;
+        @media screen and (max-width: 768px) {
+            font-size: 3rem;            
+        }
+    }
+}
+.galeria-container {
+    h2 {
+        font-size: 3rem;
+        font-family: 'Dancing Script';
+        font-style: oblique;
+        color: #87a330;
+        text-align: center;
+        text-shadow: white 3px 3px;
+        padding: 10px 0;
+        @media screen and (max-width: 768px) {
+            font-size: 2rem;            
+        }
+    }
+}
+.galeria-container {
+    p {
+        font-size: 1.9rem;
+        font-family: 'Dancing Script';
+        font-style: oblique;
+        text-align: center;
+        color: white;
+        text-shadow: #87a330 3px 3px;
+        padding: 20px 0;
+        @media screen and (max-width: 768px) {
+            font-size: 1.2rem;            
+        }
+        @media screen and (max-width: 425px) {
+            font-size: 1.2rem;            
+        }
+    }
+}
+
+.galeria-container {
+    img {
+        width: 100%;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        border-radius: 50px;
+        padding: 20px 0;
+        @media screen and (max-width: 768px) {
+            width: 100%;           
+        }
+    }
+}
